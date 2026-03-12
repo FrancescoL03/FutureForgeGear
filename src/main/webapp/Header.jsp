@@ -292,7 +292,7 @@
           <a class="login-button" href="pagina_accesso.jsp">Login</a>
           <% } else { %>
           <a class="login-button" href="logout">LogOut</a>
-          <a class="login-button" href="Profilo.jsp">Profilo</a>
+          <a class="login-button" href="Profile.jsp">Profilo</a>
           <% } %>
       </div>  --%>
 
