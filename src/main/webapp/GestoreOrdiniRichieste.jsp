@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Ciccio Mascolo
-  Date: 31/01/2026
-  Time: 11:40
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <%@ page import="java.util.List" %>
 <%@ page import="model.RequestManagement.OrderRequest" %>
@@ -20,7 +13,7 @@
         body, html {
             width: 100%;
             height: 100%;
-            background-color: #8B4000;
+            background-color: #16495c;
             font-size: 16px;
             font-family: 'Lobster', sans-serif;
             box-sizing: border-box;
