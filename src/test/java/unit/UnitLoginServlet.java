@@ -15,9 +15,6 @@ class UnitLoginServlet {
         loginServlet = new LoginServlet();
     }
 
-    // validateEmail
-
-
     @Test
     void validateEmail_emailCorretta_returnsTrue() {
         System.out.println("TEST: validateEmail -> email corretta");
@@ -30,10 +27,6 @@ class UnitLoginServlet {
         assertFalse(loginServlet.validateEmail("wrong@example.com"));
     }
 
-
-    // validatePassword
-
-
     @Test
     void validatePassword_passwordCorretta_returnsTrue() {
         System.out.println("TEST: validatePassword -> password corretta (formato)");
@@ -45,9 +38,6 @@ class UnitLoginServlet {
         System.out.println("TEST: validatePassword -> password errata (formato)");
         assertFalse(LoginServlet.validatePassword("wrongPassword"));
     }
-
-    // validateLogin
-
 
     @Test
     void validateLogin_emailEPasswordCorretti_returnsTrue() {
@@ -84,9 +74,6 @@ class UnitLoginServlet {
                 "wrongPassword"
         ));
     }
-
-
-    // password (P) - casi mancanti
 
 
     @Test

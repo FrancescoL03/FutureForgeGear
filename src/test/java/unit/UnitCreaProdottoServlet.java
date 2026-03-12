@@ -69,7 +69,6 @@ class UnitCreaProdottoServlet {
         when(filePart.getInputStream()).thenReturn(InputStream.nullInputStream());
     }
 
-
     /** N valido: nome non nullo -> deve chiamare catalogo.addProduct e fare redirect. */
     @Test
     void doPost_nomeValido_valid() throws Exception {

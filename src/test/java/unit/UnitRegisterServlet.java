@@ -15,7 +15,6 @@ class UnitRegisterServlet {
         registerServlet = new RegisterServlet();
     }
 
-    // validateEmail
 
     @Test
     void validateEmail_emailNull_returnsFalse() {
@@ -66,8 +65,6 @@ class UnitRegisterServlet {
         assertTrue(registerServlet.validateEmail("nome.cognome@example.com"));
     }
 
-    // validatePassword
-
 
     @Test
     void validatePassword_passwordNull_returnsFalse() {
@@ -116,8 +113,6 @@ class UnitRegisterServlet {
         // regex: solo lettere e numeri
         assertFalse(registerServlet.validatePassword("Passw0rd!"));
     }
-
-    // stampa finale
 
 
     @Test
